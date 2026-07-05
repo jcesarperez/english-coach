@@ -1,6 +1,10 @@
 # english-coach
 
-A [Claude Code](https://claude.com/claude-code) skill that helps you break through the English plateau — the point where you're fluent enough to get by, but not fluent enough to sound senior.
+A [Claude Code](https://claude.com/claude-code) skill for people who already speak good English at work, but want to go from sounding good to sounding fluent, the way a native speaker does.
+
+It works in two simple ways:
+- **Lessons**: short, practical lessons on real topics you'll actually use at work.
+- **Corrections**: paste something you wrote, and get it rewritten the way a native speaker would say it, with an explanation of why.
 
 ## Install in 1 minute
 

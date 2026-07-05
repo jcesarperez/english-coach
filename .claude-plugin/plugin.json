@@ -1,0 +1,11 @@
+{
+  "name": "english-coach",
+  "description": "Personal English coach for senior software engineering leaders who want to sound fluent, not just correct.",
+  "version": "1.0.0",
+  "author": {
+    "name": "jcesarperez"
+  },
+  "homepage": "https://github.com/jcesarperez/english-coach",
+  "repository": "https://github.com/jcesarperez/english-coach",
+  "license": "MIT"
+}

@@ -8,13 +8,22 @@ It works in two simple ways:
 
 ## Install in 1 minute
 
+**Option A — plugin (recommended):**
+
+```
+/plugin marketplace add jcesarperez/english-coach
+/plugin install english-coach@jcesarperez-plugins
+```
+
+Then use it with `/english-coach:english-coach`, or just talk naturally — say *"teach me something"* or paste a Slack message and ask *"does this sound natural?"*.
+
+**Option B — skill file only:**
+
 ```bash
 mkdir -p ~/.claude/skills/english-coach
 curl -o ~/.claude/skills/english-coach/SKILL.md \
-  https://raw.githubusercontent.com/jcesarperez/english-coach/main/.claude/skills/english-coach/SKILL.md
+  https://raw.githubusercontent.com/jcesarperez/english-coach/main/skills/english-coach/SKILL.md
 ```
-
-That's it. Open Claude Code and say something like *"teach me something"* or paste a Slack message you just wrote and ask *"does this sound natural?"*.
 
 (Prefer project-only scope? Copy the file into `.claude/skills/english-coach/` inside your repo instead of `~/.claude/skills/`.)
 

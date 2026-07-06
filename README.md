@@ -8,9 +8,9 @@ It's built specifically for **Spanish speakers**: experienced engineers and engi
 
 **🎓 "Teach me something"** → a short, 5-minute lesson on language you'll actually use this week — pushing back without sounding junior, softening bad news without sounding weak. Pronunciation included.
 
-> Topic: **leverage**. There's no clean Spanish equivalent, so it gets skipped or replaced with something clunky — but it's one of the highest-signal words in tech leadership. The lesson covers what it actually means, how natives use it in planning and negotiation, and a pattern you can reuse right away.
+> Topic: **leverage**. There's no clean Spanish equivalent, so it gets skipped or replaced with something clunky — but it's one of the highest-signal words in tech leadership. The lesson covers what it actually means, how natives use it in planning and negotiation, pronunciation examples, and a pattern you can reuse right away.
 
-**🔍 Paste a Slack message / RFC / comment** → get it rewritten the way a senior native speaker would say it, plus the *why*.
+**🔍 Paste a Slack message / RFC / meeting transcript** → get it rewritten the way a senior native speaker would say it, plus the *why* and pronunciation tips.
 
 > **You:** "I am agree with the plan, we only need to make a meeting with the client"
 > **Coach:** two calques from Spanish in one sentence. Try: *"I agree with the plan — we just need to set up a meeting with the client."* "I am agree" copies *estoy de acuerdo*; English uses "agree" as a verb, not "be + agree." And "make a meeting" should be "set up" or "schedule."

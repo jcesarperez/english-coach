@@ -1,10 +1,19 @@
 # english-coach
 
-A [Claude Code](https://claude.com/claude-code) skill for people who already speak good English at work, but want to go from sounding good to sounding fluent, the way a native speaker does.
+A [Claude Code](https://claude.com/claude-code) skill that helps you go from "people understand me in Enlgish" to "I sound like the senior person I actually am".
 
-It works in two simple ways:
-- **Lessons**: short, practical lessons on real topics you'll actually use at work.
-- **Corrections**: paste something you wrote, and get it rewritten the way a native speaker would say it, with an explanation of why.
+It's built specifically for **Spanish speakers**: experienced engineers and engineering leaders who already work in English every day, and want to close the gap in phrasing, confidence, and register — not grammar. It knows the specific habits Spanish speakers carry into English (over-hedging, over-apologizing, literal translations) and corrects for those directly, instead of giving you generic language-learning advice.
+
+## Two ways to use it
+
+**🎓 "Teach me something"** → a short, 5-minute lesson on language you'll actually use this week — pushing back without sounding junior, softening bad news without sounding weak. Pronunciation included.
+
+> Topic: **leverage**. There's no clean Spanish equivalent, so it gets skipped or replaced with something clunky — but it's one of the highest-signal words in tech leadership. The lesson covers what it actually means, how natives use it in planning and negotiation, and a pattern you can reuse right away.
+
+**🔍 Paste a Slack message / RFC / comment** → get it rewritten the way a senior native speaker would say it, plus the *why*.
+
+> **You:** "I am agree with the plan, we only need to make a meeting with the client"
+> **Coach:** two calques from Spanish in one sentence. Try: *"I agree with the plan — we just need to set up a meeting with the client."* "I am agree" copies *estoy de acuerdo*; English uses "agree" as a verb, not "be + agree." And "make a meeting" should be "set up" or "schedule."
 
 ## Install in 1 minute
 
@@ -27,42 +36,19 @@ curl -o ~/.claude/skills/english-coach/SKILL.md \
 
 (Prefer project-only scope? Copy the file into `.claude/skills/english-coach/` inside your repo instead of `~/.claude/skills/`.)
 
-## The plateau nobody warns you about
+## Why this exists
 
-You move to an international company. Your English is good — good enough to get hired, good enough to survive standups, good enough to write a Jira ticket nobody misunderstands. For a while, you keep improving just by being immersed.
+You already work in English every day. Nobody struggles to understand you anymore.
 
-And then you stop.
+But you still hesitate before sending an RFC, over-soften feedback that needed to be direct, or write sentences that are grammatically perfect but don't sound like how a senior engineer actually communicates. Nobody corrects this, because your English is already "good enough." That's exactly where most people stop improving.
 
-You're still translating in your head half the time. You over-apologize before asking a question. You say "I think maybe we could..." when a native colleague would just say "I'd suggest...". You can *understand* a Staff Engineer effortlessly, but when you write your own RFC, something about it reads like it was translated — because it was, just inside your own head. Nobody corrects you, because your English is "good enough." So you plateau there, sounding capable but not quite senior, for years.
+This project is for what comes after. Not another English course — it doesn't teach grammar. It teaches how experienced engineers actually phrase things, so the tiny language signals stop distracting from your ideas.
 
-That plateau is the whole problem this skill exists to solve. Not grammar — you're past grammar. The gap is **nuance, register, and the small tells that reveal a non-native writer** to anyone who's a native speaker.
+## Why a Claude Code skill, not another app
 
-## What it actually does
+Because it lives where you already write: Slack drafts, RFCs, design docs, PR comments. Instead of opening a separate tool to ask "does this sound okay?", you ask right where you're already working, mid-task.
 
-Two modes, both built around one idea: teach concepts you'll use *this week*, not abstract vocabulary lists.
-
-**🎓 Short, practical lessons on real engineering-leadership topics.**
-You ask for a lesson — or just say "teach me something" and it picks a high-value topic for you — and get a focused, ~5-minute lesson on one concept that actually comes up in your job: how to push back on a decision without sounding junior, what "let's not boil the ocean" really signals, the difference between "I think we should" and "I'd push back on this," how natives soften bad news without sounding weak. Every lesson includes pronunciation guidance with links so you can hear the word or phrase used in context, not just read it.
-
-Example:
-> **You:** teach me something
-> **Coach:** Topic of the day: **blast radius**. Engineers use it constantly outside of actual incidents — "what's the blast radius of this change?" — and it signals you're thinking about consequences before someone asks you to...
-> *(continues into how natives use it, what Spanish speakers say instead, a mini pattern, pronunciation, and a short exercise)*
-
-**🔍 Corrections based on what you actually wrote.**
-This is the part that makes it compound. You paste a real Slack message, a paragraph from an RFC, a comment you left on a design doc — and the coach rewrites it the way a native EM at your level would, then explains *why*: what you over-hedged, which phrase was a literal calque from Spanish, where you buried the ask instead of leading with it. It's not "here's the correct grammar." It's "here's what a director reads when they see this, and here's the version that reads as senior."
-
-Example:
-> **You:** "I think maybe we should consider to migrate the service, sorry if this is a bad moment to ask"
-> **Coach:** **How it lands right now:** the apology and the hedging bury the ask — a director has to dig to find out what you actually want.
-> **Native/senior rewrite:** "I'd like to propose migrating the service — here's why, and here's the trade-off if we wait."
-> **Why:** dropped the pre-emptive apology, swapped "I think maybe... consider to" for a direct stance verb, led with the ask instead of the disclaimer.
-
-Every review also closes with one mini-lesson on the *recurring* pattern behind the mistake — so the correction generalizes instead of just fixing that one sentence.
-
-## Who this is for
-
-Built for a senior software engineering leader (roughly B2/C1) working daily in English at an international company — but the mode detection and lesson format work for any technical professional past the beginner stage who wants to close the gap between "understood" and "sounds like one of us."
+It also means you set the pace, no pressure to keep a streak or finish a course. One or two lessons a day, a couple of Slack conversations pasted in for review, or a meeting transcript you want cleaned up — however much time you have, whenever you have it.
 
 ## License
 

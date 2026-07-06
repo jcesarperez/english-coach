@@ -1,6 +1,6 @@
 # english-coach
 
-A [Claude Code](https://claude.com/claude-code) skill that helps you go from "people understand me in Enlgish" to "I sound like the senior person I actually am".
+A [Claude Code](https://claude.com/claude-code) skill that helps you go from "people understand me in English" to "I sound like the senior person I actually am".
 
 It's built specifically for **Spanish speakers**: experienced engineers and engineering leaders who already work in English every day, and want to close the gap in phrasing, confidence, and register — not grammar. It knows the specific habits Spanish speakers carry into English (over-hedging, over-apologizing, literal translations) and corrects for those directly, instead of giving you generic language-learning advice.
 

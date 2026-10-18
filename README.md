@@ -82,12 +82,6 @@ Because it lives in the AI assistant you already use, next to where you write: S
 
 It also means you set the pace, no pressure to keep a streak or finish a course. One or two lessons a day, a couple of Slack conversations pasted in for review, or a meeting transcript you want cleaned up — however much time you have, whenever you have it.
 
-## Releasing
-
-1. Move the `Unreleased` entries in [CHANGELOG.md](CHANGELOG.md) under a new version heading and update the compare links.
-2. Set the same `version` in `.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`.
-3. Commit, then tag and publish: `git tag -a vX.Y.Z -m "vX.Y.Z" && git push --tags`, and `gh release create vX.Y.Z --notes-file <section>`.
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
